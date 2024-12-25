@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Gym Management</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='About.css') }}">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <a href="{{ 'home' }}">Home</a>
+            <a href="{{ 'about' }}">About Us</a>
+            <a href="{{ 'membership' }}">Membership</a>
+            <h1>ABOUT US</h1>
+        </nav>
+
+    </header>
+    <div class="container">
+        <h2>Our Mission</h2>
+        <p>To help you achieve your fitness goals in a supportive and motivational environment.</p>
+        <h2>Our Team</h2>
+        <p>A group of dedicated professionals passionate about fitness and health.</p>
+        <h2>Our Facilities</h2>
+        <p>Modern facilities equipped with the latest technology and amenities.</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Gym Management</p>
+    </footer>
+</body>
+
+</html>

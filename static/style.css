@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(images.gym.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: 10%;
+    overflow: hidden;
+    background-color: rgba(213, 234, 234, 0.425);
+    text-align: center;
+    border-radius: 1%;
+}
+
+h1 {
+    color: #f3cbcb;
+}
+
+h2 {
+    color: #111010;
+    text-decoration: underline;
+}
+
+p {
+    color: #141414;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
